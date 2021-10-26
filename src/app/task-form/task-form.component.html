@@ -1,0 +1,13 @@
+<form (ngSubmit) = "createNewTask()">
+    <label for="name">Name of Task:</label><br>
+    <input type="text" placeholder="Enter Task Name" name="name" required [(ngModel)]="newTask.name"/><br>
+
+    <label for="timeToComplete">Time Needed to Complete Task:</label><br>
+    <input type="text" placeholder="Enter Time Needed" name="timeToComplete" required [(ngModel)]="newTask.timeToComplete"/><br>
+
+    <label for="details">Task Details:</label><br>
+    <textarea type="text" placeholder="Enter Task Details" name="details" required [(ngModel)]="newTask.details"></textarea><br>
+
+    <button type="submit">Submit</button>
+
+</form>

@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "name": "Walk the dog",
+      "timeToComplete": "20 minutes",
+      "details": "Walk the dog around the neighborhood.",
+      "id": 1
+    },
+    {
+      "name": "Mow the Lawn",
+      "timeToComplete": "30 minutes",
+      "details": "The lawn mower is in the shed.",
+      "id": 2
+    },
+    {
+      "name": "Pick up groceries",
+      "timeToComplete": "45 minutes",
+      "details": "Pasta,\nSauce,\nMeatballs,\nSalad",
+      "id": 3
+    }
+  ]
+}

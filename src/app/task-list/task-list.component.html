@@ -1,0 +1,9 @@
+<div>
+    <a routerLink="/form">Create Task</a>
+    <ul>
+        <li *ngFor="let t of taskList" (taskDeleted)="onTaskDeleted($event)">
+            <a [routerLink] = "['/details', t.id]">{{t.id}}. {{t.name}}</a>
+            <button (click)="onClickDelete(t.id)">Delete</button>
+        </li>
+    </ul>
+</div>

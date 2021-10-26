@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Task } from 'src/taskModel';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'taskApp';
+  task: Task[];
+
+  addTask(name) {
+    this.task.unshift();
+  }
 }
